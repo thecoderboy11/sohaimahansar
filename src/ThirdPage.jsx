@@ -1,9 +1,16 @@
-import p1 from "./projectpic/pr1.png";
-import p2 from "./projectpic/drone.jpg";
-import p3 from "./projectpic/ironman.jpg";
-import p4 from "./projectpic/globe-3984876_1920.jpg";
-import p5 from "./projectpic/mars-67522.jpg";
-import p6 from "./projectpic/aircraft-63032.jpg";
+import p1 from "./projectpic/pic1.jpeg";
+import p2 from "./projectpic/pic2.jpeg";
+import p3 from "./projectpic/pic3.jpeg";
+import p4 from "./projectpic/pic4.jpeg";
+import p5 from "./projectpic/pic5.jpeg";
+import p6 from "./projectpic/pic6.jpeg"
+import p7 from "./projectpic/pic7.jpeg"
+import p8 from "./projectpic/pic8.jpeg"
+
+import p9 from "./projectpic/pic9.jpeg"
+import p10 from "./projectpic/pic10.jpeg"
+import p11 from "./projectpic/pic11.jpeg"
+
 import "./App.css";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Texture from "./Texture";
@@ -117,12 +124,19 @@ const ThirdPage = () => {
   }, [updown]);
 
   const cardsData = [
-    { img: p1, title: "Car-X", link: "https://www.instagram.com/the_coder_boy__" },
-    { img: p2, title: "Drone-X", link: "https://www.instagram.com/the_coder_boy__" },
-    { img: p3, title: "Iron-X", link: "https://www.instagram.com/the_coder_boy__" },
-    { img: p4, title: "Jet-X", link: "https://www.instagram.com/the_coder_boy__" },
-    { img: p5, title: "Mars-X", link: "https://www.instagram.com/the_coder_boy__" },
-    { img: p6, title: "Plane-X", link: "https://www.instagram.com/the_coder_boy__" },
+    { img: p1},
+    { img: p2 },
+    { img: p3},
+    { img: p4},
+    { img: p5 },
+    { img: p6 },
+    { img: p7 },
+    { img: p7 },
+    { img: p8 },
+    { img: p9 },
+    { img: p10 },
+    { img: p11 },
+  
   ];
 
   
@@ -165,8 +179,7 @@ const ThirdPage = () => {
                   {card.title}
                 </motion.div>
                 <motion.div animate={ud} className="mt-3 font-mono font-semibold text-white">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt repellat natus deserunt beatae ipsum est
-                  pariatur nam voluptatem dignissimos explicabo mollitia repellendus a odio, eligendi minima? Vitae, reiciendis nulla.
+                 
                 </motion.div>
                 
               </div>
@@ -192,9 +205,9 @@ const ThirdPage = () => {
                   animate={ud}
                   className="bg-black  text-white mt-4 text-2xl h-12 w-[100px] flex justify-center items-center rounded-lg"
                 >
-                  <a target="__blank" href={card.link}>
+                  {/* <a target="__blank" href={card.link}>
                     <FaExternalLinkAlt />
-                  </a>
+                  </a> */}
                 </motion.div>
               </div>
             </div>
