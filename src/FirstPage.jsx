@@ -111,8 +111,8 @@ const FirstPage = () => {
             <div className="h-[1px] my-6 bg-[#c4bebe]"></div>
             
         
-            <motion.div animate={scrollani}
-             className="overflow-hidden md:w-[600px] md:h-[200px] flex justify-center items-center p-2 ml-4 mt-2 md:mt-4  font-serif font-semibold text-5xl  text-neutral-300">
+           <motion.div animate={scrollani}
+             className="overflow-hidden md:w-[600px] md:h-[200px] flex justify-center items-center p-2 ml-4 mt-2 md:mt-4  font-serif font-semibold text-2xl md:text-5xl  text-neutral-300">
 
              Transforming ideas into visual masterpieces.
             
