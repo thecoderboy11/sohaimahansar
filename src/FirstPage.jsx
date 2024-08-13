@@ -103,7 +103,7 @@ const FirstPage = () => {
           <div className=" rounded-xl flex flex-col justify-center firstpage_i_am_coder_line mx-8 p-4 md:p-16">
 
             <motion.div animate={scrollani}  className="overflow-hidden p-4">
-              <h1 className="text-xl md:text-4xl text-neutral-300">
+              <h1 className=" text-3xl font-bold md:text-4xl text-neutral-300">
               Welcome to <span className="text-yellow-400 font-bold">Sohaimah ansar</span> graphic Design
               </h1>
             </motion.div>
