@@ -5,7 +5,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import "./App.css";
-import niqaab from "./niqaab.jpg";
+import niqaab from "./niqab.jpg";
 import {  motion, useAnimation } from "framer-motion";
 import Texture from "./Texture";
 import { setupHoverEffect } from "./HoverCard3D";
@@ -102,7 +102,7 @@ const FirstPage = () => {
           
           <div className=" rounded-xl flex flex-col justify-center firstpage_i_am_coder_line mx-8 p-4 md:p-16">
 
-             <motion.div animate={scrollani}  className="overflow-hidden p-4">
+            <motion.div animate={scrollani}  className="overflow-hidden p-4">
               <h1 className=" text-3xl font-bold md:text-4xl text-neutral-300">
               Welcome to <span className="text-yellow-400 font-bold">sohaimah`s </span> Design hub
               </h1>
@@ -111,7 +111,7 @@ const FirstPage = () => {
             <div className="h-[1px] my-6 bg-[#c4bebe]"></div>
             
         
-           <motion.div animate={scrollani}
+            <motion.div animate={scrollani}
              className="overflow-hidden md:w-[600px] md:h-[200px] flex justify-center items-center p-2 ml-4 mt-2 md:mt-4  font-serif font-semibold text-2xl md:text-5xl  text-neutral-300">
 
              Transforming ideas into visual masterpieces.
