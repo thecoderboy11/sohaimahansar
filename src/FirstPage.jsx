@@ -88,11 +88,11 @@ const FirstPage = () => {
     <div className="relative py-10 bg-custom overflow-hidden md:h-screen">
       
       
-     {/* {
+     {
       isDesktop &&  <div className=" absolute w-[100%] h-[100%] opacity-10">
       <Texture />
     </div>
-     } */}
+     }
 
 
       <div className="relative mt-20 md:mt-52 md:flex justify-evenly md:gap-5 ">
