@@ -197,18 +197,8 @@ const ThirdPage = () => {
                 <motion.div animate={ud} className="text-2xl font-mono font-bold">
                   {card.title}
                 </motion.div>
-                <motion.div animate={ud} className="mt-3 font-mono font-semibold text-white">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores incidunt repellat natus deserunt beatae ipsum est
-                  pariatur nam voluptatem dignissimos explicabo mollitia repellendus a odio, eligendi minima? Vitae, reiciendis nulla.
-                </motion.div>
-                <motion.div
-                  animate={ud}
-                  className="bg-black  text-white mt-4 text-2xl h-12 w-[100px] flex justify-center items-center rounded-lg"
-                >
-                  {/* <a target="__blank" href={card.link}>
-                    <FaExternalLinkAlt />
-                  </a> */}
-                </motion.div>
+               
+                
               </div>
             </div>
           )
